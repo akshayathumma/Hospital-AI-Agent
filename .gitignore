@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+
+# Vector DB (rebuilt from CSV)
+backend/vector_db/*
+!backend/vector_db/.gitkeep
+
+# Node
+node_modules/
+dist/
+frontend/.env
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.log
